@@ -1,0 +1,117 @@
+body{
+	background-image:url("فيزياء.jpg");
+}
+html {
+  scroll-behavior: smooth;
+}
+.container{
+background-color: rgba(240, 240, 240, 0.85);
+	margin:25px;
+	border-radius:80px;
+	padding:25px;
+	color:#003366;
+	font-family:'Story Script','Playpen Sans Arabic';
+	font-size:20px;
+}
+.header h1{
+	font-size:48px;
+	position:relative;
+	z-index:2;
+	transition:3s;
+}
+.header h1::before{
+	content:'Physics';
+	position:absolute;
+	color: #667eea ;
+	right:48%;
+	z-index:-1;
+}
+.buttons a span{
+	z-index:2;
+}
+.buttons{
+	display:flex;
+	justify-content:center;
+	
+}
+.buttons a{
+	background-color:white;
+	margin:25px;
+	padding:30px;
+	border-style:solid;
+	border-width:5px;
+	border-color:#01468a;
+	text-decoration:none;
+	color:#01468a;
+	font-weight:bold;
+	font-size:30px;
+	border-radius:80px;
+	width:150px;
+	text-align:center;
+	position:relative;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	cursor:pointer;
+}
+.buttons a::after{
+	content:'';
+	position:absolute;
+	left:0;
+	height:100%;
+	width:0%;
+	z-index:-1;
+	transition:0.3s;
+}
+.buttons a:hover::after{
+	width:100%;
+	z-index:1;
+	background-color:#01468a;
+	border-color:#01468a;
+	border-radius:80px;
+	border-style:solid;
+	border-width:3px;
+}
+.buttons a:hover{
+	color:white;
+}
+#advice ul {
+		background-image:linear-gradient(to top, #667eea , white );
+		padding:20px;
+		padding-right:30px;
+		border-style:double;
+		border-width:5px;
+		border-radius:80px;	
+}
+#sources{
+	   background-image:linear-gradient(to top, #667eea , white );
+		padding:20px;
+		padding-right:30px;
+		border-style:double;
+		border-width:5px;
+		border-radius:80px;
+}
+.back-to-top{
+	position:fixed;
+	bottom:2rem;
+	right:2rem;
+	border-radius:10px;
+	background-color:#F2F3F5;
+	box-shadow:5px 3px 5px #808080;
+	height:50px;
+	width:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.material-symbols-outlined{
+	color:#676767;
+	position:absolute;
+	
+}
+.back-to-top:hover{
+	height:55px;
+	width:55px;
+}
+
+ 

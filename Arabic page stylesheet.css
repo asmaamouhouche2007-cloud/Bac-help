@@ -1,0 +1,93 @@
+body{
+	background-image:url("العربية.jpg");
+}
+html {
+  scroll-behavior: smooth;
+}
+.container{
+	background-color:  rgba(111, 78, 55, 0.6); 
+	margin:25px;
+	border-radius:80px;
+	padding:25px;
+	color:#FFFFFF;
+	font-family:'Story Script','Playpen Sans Arabic';
+	font-size:20px;
+}
+.header h1{
+	font-size:48;
+	color:#543b29;
+	background-color:#fffff0;
+	padding:10px 35px;
+	border-radius:10px;
+}
+.buttons {
+	display:flex;
+	justify-content:center;
+}
+.buttons a {
+	text-decoration:none;
+	color:#543b29;
+	font-size:30px;
+	margin:25px;
+	background-color:#fffff0;
+	padding:10px 35px;
+	height:40px;
+	width:150px;
+	border-radius:10px;
+	position:relative;
+	cursor:pointer;
+}
+.buttons a::after{
+	content:'';
+	position:absolute;
+	left:10px;
+	background-color:#543b29;
+	padding:10px 35px;
+	border-radius:10px;
+	height:70%;
+	width:70%;
+	z-index:-1;
+}
+.buttons a:hover{
+	top:5px;
+}
+#advice ul {
+		background-image:linear-gradient(to bottom, #a1795d ,#d19f7b );
+		padding:20px;
+		padding-right:30px;
+		border-style:double;
+		border-width:5px;
+		border-radius:80px;	
+}
+#sources{
+	   background-image:linear-gradient(to bottom, #a1795d ,#d19f7b );
+		padding:20px;
+		padding-right:30px;
+		border-style:double;
+		border-width:5px;
+		border-radius:80px;
+}
+.back-to-top{
+	position:fixed;
+	bottom:2rem;
+	right:2rem;
+	border-radius:10px;
+	background-color:#F2F3F5;
+	box-shadow:5px 3px 5px #808080;
+	height:50px;
+	width:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.material-symbols-outlined{
+	color:#676767;
+	position:absolute;
+	
+}
+.back-to-top:hover{
+	height:55px;
+	width:55px;
+}
+
+ 

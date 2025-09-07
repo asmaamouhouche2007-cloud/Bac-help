@@ -1,0 +1,119 @@
+body{
+	background-image:url("Biología dibujos vectores.jpg");
+}
+html {
+  scroll-behavior: smooth;
+}
+.container{
+	background-color: rgba(70, 130, 180, 0.7);
+	margin:25px;
+	border-radius:80px;
+	padding:25px;
+	color:#FFFFFF;
+	font-family:'Story Script','Playpen Sans Arabic';
+	font-size:20px;
+}
+.header h1{
+	font-size:48px;
+	position:relative;
+	display:flex;
+	justify-content:center;
+}
+.header h1::before{
+	content:'';
+	position:absolute;
+	background-image:linear-gradient(to left,#0c84e8,#0f4775);
+	height:0%;
+	width:0%;
+	top:60px;
+	border-radius:20px;
+	transition:0.2s;
+}
+.header h1:hover::before{
+	height:5px;
+	width:40%;
+}
+
+.buttons{
+	display:flex;
+	justify-content:center;
+	
+}
+.buttons a span
+{
+	z-index:2;
+}
+.buttons a{
+	background-color:#0c84e8;
+	margin:25px;
+	padding:30px;
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	font-size:30px;
+	border-radius:80px;
+	width:150px;
+	text-align:center;
+	transition:0.5s;
+	position:relative;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	cursor:pointer;
+}
+.buttons a::after{
+	content:'';
+	background-color:#0f4775;
+	position:absolute;
+	width:0%;
+	height:0%;
+	border-radius:80px;
+	z-index:0;
+	transition:0.4s;
+	}
+	.buttons a:hover::after{
+		z-index:1;
+		width:100%;
+		height:100%;
+		transform:
+		rotate(-1turn);
+	}
+	#advice ul {
+		background-image:linear-gradient(to top , #16568a,#58a3e0);
+		padding:20px;
+		padding-right:30px;
+		border-style:double;
+		border-width:5px;
+		border-radius:80px;	}
+		#sources{
+			background-image:linear-gradient(to top , #16568a,#58a3e0);
+		padding:20px;
+		padding-right:30px;
+		border-style:double;
+		border-width:5px;
+		border-radius:80px;
+		}
+		.back-to-top{
+	position:fixed;
+	bottom:2rem;
+	right:2rem;
+	border-radius:10px;
+	background-color:#F2F3F5;
+	box-shadow:5px 3px 5px #808080;
+	height:50px;
+	width:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.material-symbols-outlined{
+	color:#676767;
+	position:absolute;
+	
+}
+.back-to-top:hover{
+	height:55px;
+	width:55px;
+}
+
+ 
